@@ -23,6 +23,7 @@ const CamperListItem = (props) => {
   return (
     <tr>
       <td>{props.number}</td>
+      <td><img src={props.camper.img} style={{height: "4em", width: "4em"}}></img></td>
       <td>{props.camper.username}</td>
       <td>{props.camper.recent}</td>
       <td>{props.camper.alltime}</td>
